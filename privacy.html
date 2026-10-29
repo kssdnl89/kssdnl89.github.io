@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ShiftGlow Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Source+Sans+3:wght@400;600&display=swap">
+<style>
+/* Layout: one readable column, a calendar-card masthead echoing the app icon, HU/EN switch, numbered sections (the policy is a real ordered document). */
+:root {
+  --bg: #fbf9ff;
+  --surface: #ffffff;
+  --fg: #1b1530;
+  --muted: #5b5470;
+  --line: #e2dbf3;
+  --accent: #6c4df6;
+  --warm1: #ff3d8b;
+  --warm2: #ff8a3d;
+  --warm3: #ffd54a;
+  --display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #110d26; --surface: #1a1536; --fg: #ece7ff; --muted: #c6bee4; --line: #2f2860; --accent: #b9a8ff;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #110d26; --surface: #1a1536; --fg: #ece7ff; --muted: #c6bee4; --line: #2f2860; --accent: #b9a8ff;
+  color-scheme: dark;
+}
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 17px; line-height: 1.6; }
+.wrap { max-width: 44rem; margin: 0 auto; padding-inline: 20px; padding-block: 32px 64px; display: grid; gap: 28px; }
+.mast { background: var(--surface); border: 1px solid var(--line); border-radius: 22px; overflow: hidden; }
+.mast .band { height: 14px; background: linear-gradient(90deg, var(--warm1), var(--warm2) 55%, var(--warm3)); }
+.mast .in { padding: 22px 24px 24px; display: grid; gap: 6px; }
+h1 { font-family: var(--display); font-weight: 800; font-size: clamp(1.9rem, 5vw, 2.6rem); line-height: 1.1; margin: 0; text-wrap: balance; letter-spacing: -0.01em; }
+.meta { color: var(--muted); font-size: 0.95rem; }
+.switch { display: flex; gap: 8px; flex-wrap: wrap; }
+.switch a { font-weight: 600; text-decoration: none; color: var(--accent); border: 1.5px solid var(--line); border-radius: 999px; padding: 6px 16px; }
+.switch a:hover, .switch a:focus-visible { border-color: var(--accent); outline: none; }
+.lang { display: grid; gap: 20px; scroll-margin-top: 16px; }
+.lang + .lang { border-top: 1px solid var(--line); padding-top: 36px; }
+h2 { font-family: var(--display); font-weight: 800; font-size: 1.7rem; margin: 0; }
+ol.sec { list-style: none; counter-reset: s; margin: 0; padding: 0; display: grid; gap: 22px; }
+ol.sec > li { counter-increment: s; display: grid; gap: 6px; }
+h3 { font-family: var(--display); font-weight: 600; font-size: 1.15rem; margin: 0; display: flex; gap: 10px; align-items: baseline; }
+h3::before { content: counter(s); font-variant-numeric: tabular-nums; color: var(--warm2); font-weight: 800; min-width: 1.4em; }
+p, ul { margin: 0; }
+ul { padding-left: 1.25rem; display: grid; gap: 4px; }
+.summary { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 16px 18px; }
+.summary strong { color: var(--accent); }
+code { font-size: 0.92em; background: var(--line); padding: 1px 6px; border-radius: 6px; overflow-wrap: anywhere; }
+a { color: var(--accent); }
+.contact { font-weight: 600; user-select: all; }
+</style>
+</head>
+<body>
+
+
+<div class="wrap">
+  <header class="mast">
+    <div class="band"></div>
+    <div class="in">
+      <h1>ShiftGlow – Adatvédelmi tájékoztató · Privacy Policy</h1>
+      <div class="meta">Hatályos / Effective: 2026. 10. 30. (October 30, 2026)</div>
+      <nav class="switch" aria-label="Language">
+        <a href="#hu">Magyar</a><a href="#en">English</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="lang" id="hu" lang="hu">
+    <h2>Magyar</h2>
+    <p class="summary"><strong>Röviden:</strong> a ShiftGlow-hoz nem kell regisztrálni, nincs benne reklám, analitika vagy követés. Az adataid a telefonodon maradnak. Csak akkor kerül ki adat a telefonról, ha te kapcsolsz be egy erre szolgáló funkciót (pl. Google Drive mentés), és akkor is a saját Google-fiókodba.</p>
+    <ol class="sec">
+      <li><h3>Kire vonatkozik</h3><p>Ez a tájékoztató a ShiftGlow Android-alkalmazásra (csomagnév: <code>hu.dani.shiftglow</code>) vonatkozik. Az alkalmazás fejlesztője magánszemély; elérhetősége a „Kapcsolat” pontban található.</p></li>
+      <li><h3>Milyen adatokat tárol az app</h3><p>Amit te adsz meg: műszakok és munkaidők, keresetek, borravaló, költségek, bevételek, jegyzetek, munkahelyek és fizetési beállítások, valamint a Profilomban megadott név, becenév és dolgozói szám. Ezeket az app kizárólag a telefonodon tárolja. Nincs saját szerverünk, ezért mi ezekhez az adatokhoz nem férünk hozzá.</p></li>
+      <li><h3>Amit nem csinálunk</h3><ul><li>Nem jelenítünk meg reklámot.</li><li>Nem használunk analitikát, követőkódot vagy hirdetési azonosítót.</li><li>Nem adunk el és nem adunk át adatot senkinek.</li></ul></li>
+      <li><h3>Engedélyek</h3><ul>
+        <li><strong>Értesítések:</strong> futó műszak, emlékeztetők, fizetésnap.</li>
+        <li><strong>Naptár:</strong> csak ha bekapcsolod a naptár-szinkront; a műszakjaid a telefon általad választott naptárába kerülnek.</li>
+        <li><strong>Pontos ébresztés (riasztások és emlékeztetők):</strong> csak ha egy műszaktípushoz ébresztőt állítasz be, hogy az a megadott percben szóljon.</li>
+        <li><strong>Biometria:</strong> az alkalmazászárhoz, ha bekapcsolod. Az ujjlenyomatod a telefon rendszeréből nem jut el az apphoz.</li>
+        <li><strong>Internet:</strong> a lent felsorolt, általad bekapcsolt funkciókhoz.</li>
+      </ul></li>
+      <li><h3>Google-szolgáltatások (csak ha bekapcsolod)</h3><p>Google-bejelentkezéssel az app a következő hozzáféréseket kérheti, mindig csak az adott funkcióhoz:</p><ul>
+        <li><code>drive.appdata</code> – biztonsági mentés az app rejtett mappájába a saját Google Drive-odon;</li>
+        <li><code>drive.file</code> – a családi megosztás fájlja, amelyet az app hoz létre;</li>
+        <li><code>spreadsheets</code> – a beosztás beolvasása (és kérésre visszaírása) a megadott Google Táblázatba.</li>
+      </ul><p>Az adatok közvetlenül a telefonod és a Google-fiókod között mozognak, mi nem látjuk őket. A hozzáférést bármikor visszavonhatod a Google-fiókod beállításaiban. Ezekre a Google adatvédelmi irányelvei is vonatkoznak: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</p><p>A ShiftGlow a Google API-kból kapott adatokat kizárólag a fent leírt funkciókhoz használja: nem továbbítja, nem adja el, nem használja hirdetésre, és ember nem olvassa el. A Google API-kból kapott adatok használata és átadása megfelel a <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a> előírásainak, beleértve a korlátozott felhasználásra (Limited Use) vonatkozó követelményeket.</p></li>
+      <li><h3>Automatikus rendszermentés</h3><p>Az Android a telefon Google-fiókjába automatikusan mentheti az app adatait, és új telefonra költözéskor visszaállítja őket. Ezt a telefon beállításai szabályozzák, és a Google kezeli.</p></li>
+      <li><h3>Árfolyamok</h3><p>Ha más pénznemben fizető munkahelyet adsz meg, és az automatikus árfolyam be van kapcsolva, az app naponta egyszer lekéri az árfolyamokat az <a href="https://www.exchangerate-api.com/terms">open.er-api.com</a> szolgáltatótól. A kérés csak a fő pénznemed kódját tartalmazza (pl. HUF). Mint minden internetes kérésnél, a szolgáltató látja a telefon IP-címét.</p></li>
+      <li><h3>Vásárlás és értékelés</h3><p>Az app ingyenes, és jelenleg nem kínál alkalmazáson belüli vásárlást. Ha a jövőben lesz ilyen, azt a Google Play kezeli: fizetési adataidat mi nem látjuk, csak azt, hogy a vásárlás sikeres volt. Az értékelést a Google Play saját ablaka kezeli az appon belül.</p></li>
+      <li><h3>Profilkép</h3><p>Ha profilképet választasz, az csak a telefonodon, az app saját tárhelyén marad (és a telefon rendszermentésében); sehova nem töltjük fel.</p></li>
+      <li><h3>Adataid törlése</h3><p>Minden adat törlődik, ha törlöd az alkalmazás adatait vagy eltávolítod az appot. A Google Drive-on lévő mentést a Drive beállításaiban, az „Alkalmazások kezelése” résznél törölheted. Mivel nálunk nincs tárolt adatod, nincs mit törölnünk a szerverünkről.</p></li>
+      <li><h3>Gyermekek</h3><p>Az alkalmazás nem 13 év alatti gyermekeknek készült, és tudatosan nem gyűjt tőlük adatot.</p></li>
+      <li><h3>Változások</h3><p>Ha a tájékoztató változik, a frissített változat ezen az oldalon jelenik meg, a hatálybalépés dátumával.</p></li>
+      <li><h3>Kapcsolat</h3><p>Kérdés esetén írj nekünk: <span class="contact">kssdnlapp@gmail.com</span></p></li>
+    </ol>
+  </section>
+
+  <section class="lang" id="en" lang="en">
+    <h2>English</h2>
+    <p class="summary"><strong>In short:</strong> ShiftGlow needs no sign-up and has no ads, analytics or tracking. Your data stays on your phone. Data only leaves the phone when you turn on a feature for it (such as Google Drive backup), and then only to your own Google account.</p>
+    <ol class="sec">
+      <li><h3>Scope</h3><p>This policy covers the ShiftGlow Android app (package <code>hu.dani.shiftglow</code>). The app is developed by an individual developer; see “Contact” below.</p></li>
+      <li><h3>Data the app stores</h3><p>What you enter: shifts and working hours, earnings, tips, costs, income, notes, workplaces and pay settings, and the name, nickname and employee number in My profile. The app stores this only on your phone. We run no servers, so we have no access to it.</p></li>
+      <li><h3>What we don't do</h3><ul><li>No ads.</li><li>No analytics, tracking code or advertising ID.</li><li>We never sell or share data with anyone.</li></ul></li>
+      <li><h3>Permissions</h3><ul>
+        <li><strong>Notifications:</strong> running shift, reminders, payday.</li>
+        <li><strong>Calendar:</strong> only if you turn on calendar sync; your shifts go into the phone calendar you choose.</li>
+        <li><strong>Exact alarms (alarms &amp; reminders):</strong> only if you set a wake-up alarm for a shift type, so it rings on the minute.</li>
+        <li><strong>Biometrics:</strong> for the app lock, if enabled. Your fingerprint never reaches the app.</li>
+        <li><strong>Internet:</strong> for the optional features listed below.</li>
+      </ul></li>
+      <li><h3>Google services (only if you turn them on)</h3><p>With Google sign-in the app may request these permissions, each only for its feature:</p><ul>
+        <li><code>drive.appdata</code> – backups in the app's hidden folder on your own Google Drive;</li>
+        <li><code>drive.file</code> – the family-sharing file the app creates;</li>
+        <li><code>spreadsheets</code> – reading (and, if you ask, writing back) your roster in the Google Sheet you choose.</li>
+      </ul><p>Data moves directly between your phone and your Google account; we never see it. You can revoke access at any time in your Google account settings. Google's privacy policy also applies: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</p><p>ShiftGlow uses data received from Google APIs only for the features described above: it is not transferred, sold, used for advertising or read by humans. ShiftGlow's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p></li>
+      <li><h3>Automatic system backup</h3><p>Android may back up the app's data to the phone's Google account and restore it on a new phone. This is controlled by your phone settings and handled by Google.</p></li>
+      <li><h3>Exchange rates</h3><p>If a workplace pays in another currency and automatic rates are on, the app fetches exchange rates from <a href="https://www.exchangerate-api.com/terms">open.er-api.com</a> once a day. The request contains only your main currency code (e.g. EUR). As with any internet request, the provider sees the phone's IP address.</p></li>
+      <li><h3>Purchases and ratings</h3><p>The app is free and currently offers no in-app purchases. If it does in the future, they are handled by Google Play: we never see your payment details, only that the purchase succeeded. Ratings are handled by Google Play's own in-app window.</p></li>
+      <li><h3>Profile photo</h3><p>If you choose a profile photo, it stays on your phone in the app's own storage (and in the phone's system backup); it is never uploaded anywhere.</p></li>
+      <li><h3>Deleting your data</h3><p>All data is deleted when you clear the app's data or uninstall it. A Google Drive backup can be deleted in Drive settings under “Manage apps”. We hold no data of yours on any server.</p></li>
+      <li><h3>Children</h3><p>The app is not directed at children under 13 and does not knowingly collect data from them.</p></li>
+      <li><h3>Changes</h3><p>If this policy changes, the updated version will appear on this page with its effective date.</p></li>
+      <li><h3>Contact</h3><p>Questions? Write to: <span class="contact">kssdnlapp@gmail.com</span></p></li>
+    </ol>
+  </section>
+</div>
+
+</body>
+</html>
